@@ -3,7 +3,7 @@ const Constants = require('../src/utils/Constants');
 const Utils = require('../src/utils/utils');
 const MusicRepository = require('../src/port/Music_repository');
 
-jest.mock('../src/port/Music_repository');
+jest.mock('../src/port/music_repository');
 
 test('CREATE - Dado cantor em branco', async () => {
     const data = {
