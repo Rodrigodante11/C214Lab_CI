@@ -1,7 +1,7 @@
-const Music = require('../src/application/Music_service');
+const Music = require('../src/application/music_service');
 const Constants = require('../src/utils/Constants');
 const Utils = require('../src/utils/utils');
-const MusicRepository = require('../src/port/Music_repository');
+const MusicRepository = require('../src/port/music_repository');
 
 jest.mock('../src/port/music_repository');
 
